@@ -1,0 +1,22 @@
+aside#bal {
+    display: block;
+}
+
+th {
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+}
+
+table, tr, th, td {
+    border-collapse: collapse;
+}
+
+
+/* páros sorok háttérszíne */
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
